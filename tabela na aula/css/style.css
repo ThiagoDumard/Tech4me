@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+table, tr, td{
+    margin-top: 225px;
+    font-size: 30px;
+    background-color: #C8E8EE;
+}
+.posicao{
+    color: black;
+    background: #C0C0C0;
+    text-align: center;
+    padding: 1px;
+    border-spacing: 2px;
+    
+}
+.cedula1{
+    background-color: #C8E8EE;
+    color: rgb(0, 145, 255);
+    margin: 0;
+    padding: 0;
+}
+caption{
+    background: #4D83A4;
+    color: white;
+    padding: 2px 2px 2px;
+}
+th{
+    color: black;
+    background: #93d0e4;
+    padding: 2px;
+}
