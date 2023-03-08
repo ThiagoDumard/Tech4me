@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(-128deg, rgba(255, 144, 256, 15), black);
+    background-attachment: fixed;
+    text-align: center;
+}
+h1{
+    background-image: linear-gradient(-128deg, rgba(255, 144, 256, 15), black);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.comidas{
+    flex-direction: column;
+}
+.bar{
+    height: 5px;
+    padding: 10px 10px 10px;
+    font-size: 12px;
+    margin: 5px;
+    border: 2px solid rgba(255,144,256,15);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: left;
+    animation: barra  4s ease-in-out;
+    
+}
+.bar:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.churrasco{
+    background-color: red;
+    width: 18%;
+    height: 18px;
+    
+}
+.strogo{
+    background-color: blue;
+    width: 16%;
+    height: 18px;
+}
+.empada{
+    width: 15%;
+    background-color: blueviolet;
+    height: 18px;
+}
+.lasanha{
+    background-color: aqua;
+    width: 10%;
+    height: 18px;
+}
+.jilo{
+    width: 5%;
+    background-color: brown;
+    height: 15px;
+}
+@keyframes barra {
+    0%{
+        width: 0%;
+    }
+}

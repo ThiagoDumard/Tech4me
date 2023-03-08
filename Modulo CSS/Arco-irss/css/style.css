@@ -1,0 +1,32 @@
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+}
+table
+td{
+    border-radius: 3px;
+}
+.cor1{
+    background-color: red;
+}
+.cor2{
+    background-color: orange;
+}
+.cor3{
+    background-color: yellow;
+}
+.cor4{
+    background-color: green;
+}
+.cor5{
+    background-color: blue;
+}
+.cor6{
+    background-color: rgb(45, 47, 141);
+}
+.cor7{
+ background-color: blueviolet;
+}

@@ -1,0 +1,58 @@
+body{
+    background-color: bisque;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+.azul{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    animation-name: azul;
+    animation-duration: 2s;
+    animation-delay: 1;
+}
+@keyframes azul {
+    from{
+        height: 0px;
+    }
+    to{
+        height: 300px;
+    }
+}  
+.amarela{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    animation-name: amarela;
+    animation-duration: 2s;
+    animation-delay: 1;
+}
+@keyframes amarela {
+    from{
+        height: 0px;
+    }
+    to{
+        height: 300px;
+    }
+}   
+.vermelha{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: vermelha;
+    animation-duration: 2s;
+    animation-delay: 1;
+}
+@keyframes vermelha {
+    from{
+        height: 0px;
+    }
+    to{
+        height: 300px;
+    }
+}    

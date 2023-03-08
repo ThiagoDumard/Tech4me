@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #FEFFF9;
+    
+}
+img{
+    width: 200px;
+    height: 150px;
+    animation: roda 0.5ms infinite 3s ease;
+}
+@keyframes roda{
+    100%{
+        transform: rotate(360deg);
+    }
+}
