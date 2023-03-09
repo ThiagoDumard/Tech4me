@@ -30,17 +30,13 @@ img{
     border-radius: 30px;
     transition-delay: 1s;
 }
-.bodar
 @keyframes img {
     0% {
       border-color: yellow;
     }
     50% {
-      border-color: rgb(249, 249, 249);
+      border-color: white;
     }
-    75% {
-        border-color: rgb(135, 5, 5);
-      }
     100% {
       border-color: yellow;
     }
